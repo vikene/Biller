@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="253dp"
+    android:layout_marginBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitEnd"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+
+        android:src="@drawable/img"
+        android:id="@+id/store_card_item_image"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/store_card_item_name"
+        android:text="PARDA LOW"
+        android:textSize="16sp"
+        android:textColor="#335b68"
+        android:layout_below="@id/store_card_item_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/store_card_item_name"
+        android:id="@+id/store_card_item_description"
+        android:textSize="16sp"
+        android:textColor="#335b68"
+        android:layout_marginLeft="10dp"
+        android:text="Top Tennis"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$365.00"
+        android:textSize="14sp"
+        android:textColor="#335b68"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/store_card_item_price"
+        />
+    <RelativeLayout
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toEndOf="@id/store_card_item_name"
+        android:layout_toRightOf="@+id/store_card_item_name"
+        android:layout_below="@+id/store_card_item_image"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundaddbutton"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/store_card_item_layout"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_add_black_24dp"
+            android:tint="@color/white"
+            android:layout_centerInParent="true"
+            android:id="@+id/store_card_add_item"
+
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

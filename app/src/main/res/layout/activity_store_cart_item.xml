@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".store_cart_item"
+    android:background="@color/backgroundPrimary"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+            android:tint="@color/textPrimary"
+            android:layout_marginTop="30dp"
+            android:id="@+id/backarrow"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="48dp"
+            android:text="Cart"
+            android:textColor="#85b9ca"
+            android:textSize="40sp"
+            android:layout_below="@id/backarrow"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/carttext"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/carttext"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/cart_recycler"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/bottomlayout"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

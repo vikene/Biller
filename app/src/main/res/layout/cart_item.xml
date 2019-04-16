@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="345dp"
+    android:layout_height="86dp"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp"
+    >
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/bitmap"
+        android:id="@+id/cart_item_image"
+        />
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#335b68"
+            android:text="Undercover T shirt"
+            android:id="@+id/cart_item_name"
+            />
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="#343232"
+            android:text="Size M, White, Cotton"
+            android:id="@+id/cart_item_description"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#335b68"
+            android:text="$30.00"
+            android:textDirection="rtl"
+            android:layout_marginRight="10dp"
+            android:id="@+id/cart_item_price"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#343232"
+            android:text="unit: 1"
+            android:textDirection="rtl"
+            android:layout_marginRight="10dp"
+            android:id="@+id/cart_item_quantity"
+            />
+    </LinearLayout>
+
+</LinearLayout>
