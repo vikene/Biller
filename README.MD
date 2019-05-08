@@ -5,7 +5,7 @@ An Android Native application to help merchants bill their customers on their mo
 
 Screenshots:
 #### Onboarding page
-![alt-text](https://www.github.com/vikene/Biller/raw/master/Screenshots/p1.jpg =250x350)
+![](https://www.github.com/vikene/Biller/raw/master/Screenshots/p1.jpg =250x350)
 
 #### Register Page
 ![alt-text](https://www.github.com/vikene/Biller/raw/master/Screenshots/p2.jpg "Login Page")
